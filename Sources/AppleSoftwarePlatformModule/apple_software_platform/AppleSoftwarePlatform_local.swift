@@ -17,5 +17,7 @@ extension AppleSoftwarePlatform {
     public static let local: Self = .watchOS
     #elseif os(tvOS)
     public static let local: Self = .tvOS
+    #elseif os(visionOS)
+    public static let local: Self = .visionOS
     #endif
 }

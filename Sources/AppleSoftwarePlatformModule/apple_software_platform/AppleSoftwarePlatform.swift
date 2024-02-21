@@ -19,4 +19,7 @@ public enum AppleSoftwarePlatform {
     
     ///
     case tvOS
+    
+    ///
+    case visionOS
 }
